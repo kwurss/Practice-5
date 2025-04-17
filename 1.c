@@ -3,7 +3,9 @@
 
 int main() {
     char alphabet[] = "abcdefghijklmnopqrstuvwxyz";
-    char letter = 's';
+    char letter;
+    printf("Введите искомую букву: ");
+    scanf("%c", &letter);
     int index = -1;
 
     for (int i = 0; i < strlen(alphabet); i++) {
